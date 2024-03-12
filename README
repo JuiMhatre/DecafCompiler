@@ -1,0 +1,33 @@
+# How to Compile and Execute
+
+This repository contains a collection of `.frag` and `.decaf` files in the `samples` folder. You can compile and execute these files using the provided scripts.
+
+## Compilation
+
+To compile the code, run the following command in your terminal:
+
+./build.sh
+
+
+This will generate an `a.out` file, which is the executable.
+
+## Execution
+
+To execute the compiled `a.out` file with the input files in the `samples` folder, run:
+
+./exec.sh
+
+
+This will generate the output based on the input files.
+
+## Capture Output
+
+If you want to capture the output to a file, you can run the following command:
+
+
+./exec.sh out.txt
+
+
+This will redirect the output to a file named `out.txt`.
+
+Feel free to explore the provided `.frag` and `.decaf` files and modify the scripts to suit your needs.
