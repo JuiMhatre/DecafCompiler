@@ -17,7 +17,7 @@ int map_count=0;
 "Print"|"ReadInteger"|"ReadLine" {
 	if(indefine){
 		strncpy(map[map_count++], yytext,31);
-		strncpy(map[map_count++], "T_Keyword",31);
+		strncpy(map[map_count++], "T_Keyword",31); // Sample files show it as Identifier, but this code is as per the decaf grammar provided
 	}
 	else
 	if(!invalid_found){
